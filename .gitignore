@@ -1,0 +1,9 @@
+venv/
+*.pyc
+*.mp4
+testbed.py
+test.json
+*.mkv
+*.ipynb
+Football-event-timestamp-matching-4/
+runs/

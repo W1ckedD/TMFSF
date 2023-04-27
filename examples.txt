@@ -1,0 +1,8 @@
+python demo.py --timestamp 93:10+ --map False --mappings_path 
+samples/mappings/rma_vs_liv.json --video_path 
+samples/videos/rma_vs_liv.mkv --error_margin 30
+
+
+python demo.py --timestamp 17:10 --map False --mappings_path 
+samples/mappings/chelsea_vs_arsenal.json --video_path 
+samples/videos/chelsea_vs_arsenal.mp4 --error_margin 30
