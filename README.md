@@ -154,4 +154,4 @@ result = matcher.match(
   
 print(results)
 ```
-**Note**: Again, due to large size of videos, we could not upload a sample video to the repository. Therefore you need to replace the value for ```--video_path``` in the example to a custom video path in your machine.
+**Note**: Again, due to large size of videos, we could not upload a sample video to the repository. Therefore you need to replace the value for ```video_path``` in the example to a custom video path in your machine.
