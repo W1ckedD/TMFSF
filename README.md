@@ -25,6 +25,14 @@ pip install --no-deps -r requirements.txt
 ### Demo
 
 #### Demo file parameters
+
+<table>
+  <tr>
+    <td>Hello</td>
+    <td>World</td>
+  <tr/>
+</table>
+
 | Parameter  | Type | Description |
 | ------------- ||:-------------:|
 | weights_path | String | Path to the weights for the YOLOv8 model|
