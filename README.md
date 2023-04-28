@@ -53,7 +53,7 @@ The Mapper module reads the frames from a video, for each frame it detects the s
 **Methods**:
 
 | Name  | Description | Arguments | Returns |
-| ------------- |:-------------:|||
+| ------------- |:-------------:|:-------------:|:-------------:|
 | \_\_init__      |   Constructor method   | weights_path: **str** - Path to the weights for the YOLOv8 model <br /> video_path **str** - Path to the related video of the football match <br /> output_path **str** - Path to file where the mapping function is going to be stored <br />| None
 | map      | runs the mapping process     |step_size: **int** - a multiplier of the distance between two consecutive frames in seconds |saved_path: **str** - Path to the saved mappings json file
 | extract_time | Extracts the timestamps from the text read by the OCR     | reader_res: **list** - A list containing the result of the OCR readtext method. | time_dict: **dict** - A dictionary with the format of {timestamps, added_time}
