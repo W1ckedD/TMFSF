@@ -27,11 +27,74 @@ pip install --no-deps -r requirements.txt
 #### Demo file parameters
 
 <table>
-  <tr>
-    <td>Hello</td>
-    <td>World</td>
-  <tr/>
-</table>
+      <thead>
+        <tr>
+          <td>Parameter</td>
+          <td>Type</td>
+          <td>Description</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>weights_path</td>
+          <td>String</td>
+          <td>Path to the weights for the YOLOv8 model</td>
+        </tr>
+        <tr>
+          <td>video_path</td>
+          <td>String</td>
+          <td>Path to the related video of the football match</td>
+        </tr>
+        <tr>
+          <td>output_path</td>
+          <td>String</td>
+          <td>Path to file where the mapping function is going to be stored</td>
+        </tr>
+        <tr>
+          <td>mappings_path</td>
+          <td>String</td>
+          <td>Path to the previously stored mapping file</td>
+        </tr>
+        <tr>
+          <td>timestamp (required)</td>
+          <td>String</td>
+          <td>The desired timestamp in the format of (m)mm:ss(+)</td>
+        </tr>
+        <tr>
+          <td>map</td>
+          <td>Boolean</td>
+          <td>
+            If "True", the mapping and matching process will run. If "False"
+            only the matching process will run (Note the capital "T" and "F" for
+            True and False)
+          </td>
+        </tr>
+        <tr>
+          <td>render</td>
+          <td>Boolean</td>
+          <td>
+            If "True", a video player will display the frame for the matching
+            timstamp (Note the capital "T" and "F" for True and False)
+          </td>
+        </tr>
+        <tr>
+          <td>error_margin</td>
+          <td>Integer</td>
+          <td>
+            The value (in seconds) for the difference threshold between the
+            desired time stamp and the closest matching timestamp
+          </td>
+        </tr>
+        <tr>
+          <td>step_size</td>
+          <td>Integer</td>
+          <td>
+            The value (in seconds) for the distance between to consecutive
+            frames of the video
+          </td>
+        </tr>
+      </tbody>
+    </table>
 
 | Parameter  | Type | Description |
 | ------------- ||:-------------:|
