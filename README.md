@@ -113,7 +113,7 @@ The Mapper module reads the frames from a video, for each frame it detects the s
 
 | Name  | Description | Arguments | Returns |
 | ------------- |:-------------:|:-------------:|:-------------:|
-| \_\_init__      |   Constructor method   | weights_path: **str** - Path to the weights for the YOLOv8 model <br /> video_path **str** - Path to the related video of the football match <br /> output_path **str** - Path to file where the mapping function is going to be stored <br />| None
+| \_\_init__      |   Constructor method   | weights_path: **str** - Path to the weights for the YOLOv8 model <br /> video_path: **str** - Path to the related video of the football match <br /> output_path: **str** - Path to file where the mapping function is going to be stored <br />| None
 | map      | runs the mapping process     |step_size: **int** - a multiplier of the distance between two consecutive frames in seconds |saved_path: **str** - Path to the saved mappings json file
 | extract_time | Extracts the timestamps from the text read by the OCR     | reader_res: **list** - A list containing the result of the OCR readtext method. | time_dict: **dict** - A dictionary with the format of {timestamps, added_time}
 
@@ -125,7 +125,7 @@ The Mapper module reads the frames from a video, for each frame it detects the s
 | Name  | Description | Arguments | Returns |
 | ------------- |:-------------:|:-------------:|:-------------:|
 | \_\_init__      |   Constructor method   | mappings_path: **str** - Path to the previously stored mapping file <br/> video_path: **str** - Path to the related video of the football match| None
-| match      | runs the matching process     |timestamp: **str**: A string desired timestamp in the format of (m)mm:ss(+) <br />  error_margin **int** - A multiplicator of the error margin allowd for matching the desired timestamps in seconds <br /> render: **bool** If True, the video of the timestampe will be rendered (Note the uppercase True and False). |match: **str** - the exact or the closest corrolated video frame in the format of hh:mm:ss
+| match      | runs the matching process     |timestamp: **str**: A string desired timestamp in the format of (m)mm:ss(+) <br />  error_margin: **int** - A multiplicator of the error margin allowd for matching the desired timestamps in seconds <br /> render: **bool** - If True, the video of the timestampe will be rendered (Note the uppercase True and False). |match: **str** - the exact or the closest corrolated video frame in the format of hh:mm:ss
 
 
 ### Example
