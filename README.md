@@ -28,7 +28,7 @@ pip install --no-deps -r requirements.txt
 
 <table>
       <thead>
-        <tr>
+        <tr style="font-weight: bold;">
           <td>Parameter</td>
           <td>Type</td>
           <td>Description</td>
@@ -95,18 +95,6 @@ pip install --no-deps -r requirements.txt
         </tr>
       </tbody>
     </table>
-
-| Parameter  | Type | Description |
-| ------------- ||:-------------:|
-| weights_path | String | Path to the weights for the YOLOv8 model|
-| video_path     | String | Path to the related video of the football match |
-| output_path      | String | Path to file where the mapping function is going to be stored |
-| mappings_path      | String | Path to the previously stored mapping file |
-| timestamp (required)     | String | The desired timestamp in the format of (m)mm:ss(+) |
-| map     | Boolean | If "True", the mapping and matching process will run. If "False" only the matching process will run (Note the capital "T" and "F" for True and False) |
-| render     | Boolean | If "True", a video player will display the frame for the matching timstamp (Note the capital "T" and "F" for True and False) |
-| error_margin      | Integer | The value (in seconds) for the difference threshold between the desired time stamp and the closest matching timestamp |
-| step_size      | Integer | The value (in seconds) for the distance between to consecutive frames of the video |
 
 #### Demo Example
 ```sh
