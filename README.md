@@ -125,7 +125,7 @@ The Mapper module reads the frames from a video, for each frame it detects the s
 | Name  | Description | Arguments | Returns |
 | ------------- |:-------------:|||
 | \_\_init__      |   Constructor method   | mappings_path: **str** - Path to the previously stored mapping file <br/> video_path: **str** - Path to the related video of the football match| None
-| match      | runs the matching process     |timestamp: **str**: A string desired timestamp in the format of (m)mm:ss(+) <br />  error_margin **int** - A multiplicator of the error margin allowd for matching the desired timestamps in seconds <br /> render: **bool** If True, the video of the timestampe will be rendered (Note the uppercase True and False). |match: **str** - the exact or the closest corrolated video frame in the format of hh:mm:ss
+| match      | runs the matching process     |timestamp: **str**: A string desired timestamp in the format of (m)mm:ss(+) <br />  error_margin **int** - A multiplicator of the error margin allowd for matching the desired timestamps in seconds <br /> render: **bool** If True, the video of the timestampe will be rendered (Note the uppercase True and False). |match: **str** - the exact or the closest corrolated video frame in the format of hh:mm:ss|
 
 
 ### Example
