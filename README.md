@@ -29,9 +29,9 @@ pip install --no-deps -r requirements.txt
 <table>
       <thead>
         <tr>
-          <td>**Parameter**</td>
-          <td>**Type**</td>
-          <td>**Description**</td>
+              <td><b>Parameter</b></td>
+              <td><b>Type</b></td>
+              <td><b>Description</b></td>
         </tr>
       </thead>
       <tbody>
