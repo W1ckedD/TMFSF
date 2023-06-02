@@ -147,7 +147,7 @@ matcher = Matcher(
     )
     
 result = matcher.match(
-    timestamp="91:03+,
+    timestamp="91:03+",
     error_margin=10,
     render=True
 )
