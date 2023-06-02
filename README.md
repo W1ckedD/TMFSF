@@ -20,7 +20,7 @@ pip install --no-deps -r requirements.txt
 ```
 **Note**: Currently there is an inconsistency for the required version of one of the shared dependencies of two of the core packages. To avoid installation errors, make sure to use ```--no-deps``` flag in the above command.
 
-**Note**: For a convinent installation process, we included the GPU version of the PyTorch library in the requirements.txt file. Please feel free to install the GPU version of the PyTorch library manually and based on the cuda version installed on your system to have faster calculations.
+**Note**: For a convinent installation process, we included the CPU version of the PyTorch library in the requirements.txt file. Please feel free to install the GPU version of the PyTorch library manually and based on the cuda version installed on your system to have faster calculations.
 
 ### Demo
 
